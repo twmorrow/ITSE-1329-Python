@@ -1,0 +1,1 @@
+def only_randint():
