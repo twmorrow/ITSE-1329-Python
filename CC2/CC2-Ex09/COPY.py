@@ -1,17 +1,11 @@
-s = input('Enter Score: ')
+hours = input('Enter Hours: ')
+rate = input('Enter Rate: ')
+pay = float(hours) * float(rate)
+opay = pay * 40 + 1.5
 try:
-    if float(s) < 0.60:
-        print('F')
-    if float(s) < 0.70:
-        print('D')
-    if float(s) < 0.80:
-        print('C')
-    if float(s) < 0.90:
-        print('B')
-    if float(s) <= 1.00:
-        print('A')
-    if float(s) > 1.00:
-        print('Bad score')
+    if float(hours) <= 40:
+        print("Pay:", pay)  
+    if float(hours) >40:
+        print("Pay:", opay)
 except:
-    print('Please enter numeric input')
-quit()
+    print('Error, please enter numeric input')
