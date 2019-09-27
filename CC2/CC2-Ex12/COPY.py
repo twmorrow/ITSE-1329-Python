@@ -5,4 +5,4 @@ while True:
         break
 else:
     print(command)
-quit()    
+ 
