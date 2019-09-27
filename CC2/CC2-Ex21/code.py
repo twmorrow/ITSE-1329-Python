@@ -4,3 +4,5 @@ fav_word = "supercalifragilisticexpialidocious"
 
 # Your code below
 
+print(len(fav_word))
+
