@@ -3,14 +3,15 @@ tot = 0
 while True:
         number = input('Enter a number: ')
         if number == 'done':
-            #print('done')
             break
+            #print('done')
         try: 
-            inum = int(number)
+            inum = float(number)
         except: 
-            print('Invalid input')
+            print('')
             continue
-        num = num + 1
-        tot = tot + inum
-print(tot,num,tot/num)
-    
+        n
+        
+        
+
+quit()
