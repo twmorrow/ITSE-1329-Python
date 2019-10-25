@@ -6,9 +6,9 @@ while True:
     greeting = 'Have a good'
 
     if time == 'Morning':
-        time = 'breakfast,'
+        print(greeting, 'breakfast', fname, lname[0:])
         break
-    if time == 'Afternoon':
+    if time == 'Afternoon' 
         time = 'lunch,'
         break
     if time == 'Evening':

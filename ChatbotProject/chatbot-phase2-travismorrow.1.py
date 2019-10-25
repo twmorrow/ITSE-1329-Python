@@ -17,7 +17,7 @@ while True:
     another = input('Would you like another greeting? ')
     if another == 'yes':
         count = count + 1
-        print(count)
+        #print(count)
         continue
     if another == 'no':
         break
