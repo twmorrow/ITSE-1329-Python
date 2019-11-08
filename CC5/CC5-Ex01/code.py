@@ -1,2 +1,4 @@
-friends = ['_____', '_____', '_____', '_____']
-numbers = list(__________)
+friends = [ 'Tom', 'Kerry', 'Jeff', 'Dave' ]
+numbers = list(range(50))
+#print(friends)
+#print(numbers)
