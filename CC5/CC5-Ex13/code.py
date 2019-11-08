@@ -1,5 +1,7 @@
+#CC5-Ex13
 pet_info = {
-    'name': '_____',
-    'age': _____,
-    'gender': '_____'
+    'name':'Joe',
+    'age': 21,
+    'gender': 'Male'
 }
+print(pet_info)
